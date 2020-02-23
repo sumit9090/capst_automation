@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite" parallel="tests">
+
+
+
+
+
+<test name="Application Login">
+    <classes>
+        <class name="suite1.applicationTest" ></class>  
+    </classes>
+</test>
+
+
+
+<test name="XXXX">
+    <classes>
+        <class name="suite1.LoginTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Sample Suite" duration-ms="32" started-at="2020-02-22T15:18:53Z" finished-at="2020-02-22T15:18:53Z">
+    <groups>
+    </groups>
+    <test name="XXXX" duration-ms="31" started-at="2020-02-22T15:18:53Z" finished-at="2020-02-22T15:18:53Z">
+      <class name="suite1.LoginTest">
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite1.LoginTest@1810399e]" name="logintest" duration-ms="7" started-at="2020-02-22T20:48:53Z" data-provider="getData" finished-at="2020-02-22T20:48:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite1.LoginTest@1810399e]" name="logintest" duration-ms="6" started-at="2020-02-22T20:48:53Z" data-provider="getData" finished-at="2020-02-22T20:48:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- suite1.LoginTest -->
+    </test> <!-- XXXX -->
+    <test name="Application Login" duration-ms="32" started-at="2020-02-22T15:18:53Z" finished-at="2020-02-22T15:18:53Z">
+      <class name="suite1.applicationTest">
+        <test-method status="PASS" signature="Beforetest()[pri:0, instance:suite1.applicationTest@12843fce]" name="Beforetest" is-config="true" duration-ms="7" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:suite1.applicationTest@12843fce]" name="Beforemethod" is-config="true" duration-ms="1" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="LOGIN()[pri:0, instance:suite1.applicationTest@12843fce]" name="LOGIN" duration-ms="9" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOGIN -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:suite1.applicationTest@12843fce]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:suite1.applicationTest@12843fce]" name="Beforemethod" is-config="true" duration-ms="1" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="PASSWORDCHANGE()[pri:0, instance:suite1.applicationTest@12843fce]" name="PASSWORDCHANGE" duration-ms="2" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PASSWORDCHANGE -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:suite1.applicationTest@12843fce]" name="aftermethod" is-config="true" duration-ms="1" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="LOGOUT()[pri:0, instance:suite1.applicationTest@12843fce]" name="LOGOUT" duration-ms="2" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOGOUT -->
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:suite1.applicationTest@12843fce]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:suite1.applicationTest@12843fce]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite1.applicationTest@12843fce]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-22T20:48:53Z" finished-at="2020-02-22T20:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- suite1.applicationTest -->
+    </test> <!-- Application Login -->
+  </suite> <!-- My Sample Suite -->
+</testng-results>
